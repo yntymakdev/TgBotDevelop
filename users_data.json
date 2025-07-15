@@ -1,0 +1,130 @@
+{
+  "1824189081": {
+    "user_id": 1824189081,
+    "username": "ynty_io",
+    "level": 1,
+    "xp": 0,
+    "total_xp": 0,
+    "current_rank": "E",
+    "daily_tasks": [
+      {
+        "name": "Коран 2 аят + перевод ",
+        "xp_reward": 4,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "Арабский текст 10 слов",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "Английский 10 слов",
+        "xp_reward": 4,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "100 отжимание",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "100 пресидание",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "100 пресс",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "100 турник",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "Помощь родителям",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "Зикр минимум 100 раз",
+        "xp_reward": 3,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "Даават (призыв к Исламу)",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      },
+      {
+        "name": "Обучение другого человека",
+        "xp_reward": 5,
+        "completed": false,
+        "completion_time": null
+      }
+    ],
+    "titles": [
+      {
+        "name": "Хафиз",
+        "description": "Весь Коран наизусть",
+        "achieved": false,
+        "achieved_date": null
+      },
+      {
+        "name": "Строитель мечети",
+        "description": "Участвовал в строительстве мечети",
+        "achieved": false,
+        "achieved_date": null
+      },
+      {
+        "name": "Учитель поколений",
+        "description": "Научил 100+ человек",
+        "achieved": false,
+        "achieved_date": null
+      },
+      {
+        "name": "Радующий родителей",
+        "description": "Родители довольны",
+        "achieved": false,
+        "achieved_date": null
+      },
+      {
+        "name": "Постоянный",
+        "description": "40 дней подряд выполнял дело ради Аллаха",
+        "achieved": false,
+        "achieved_date": null
+      },
+      {
+        "name": "Чистый в омовении",
+        "description": "Не пропускает тахарат",
+        "achieved": false,
+        "achieved_date": null
+      },
+      {
+        "name": "Мустаид",
+        "description": "Сохраняет здоровье ради поклонения",
+        "achieved": false,
+        "achieved_date": null
+      },
+      {
+        "name": "Зикрящий",
+        "description": "Делает зикр каждый день минимум 100 раз",
+        "achieved": false,
+        "achieved_date": null
+      }
+    ],
+    "last_reset": "2025-07-15T15:25:50.668272",
+    "penalty_applied": false
+  }
+}

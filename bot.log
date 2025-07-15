@@ -1,0 +1,51 @@
+2025-07-15 02:03:49,022 - __main__ - INFO - Инициализация базы данных...
+2025-07-15 02:03:49,022 - __main__ - ERROR - Ошибка при запуске бота: UserDatabase.__init__() takes 1 positional argument but 2 were given
+2025-07-15 02:03:49,022 - __main__ - ERROR - Критическая ошибка: UserDatabase.__init__() takes 1 positional argument but 2 were given
+2025-07-15 02:06:41,622 - __main__ - INFO - Инициализация базы данных...
+2025-07-15 02:06:41,654 - database - ERROR - Error loading data: Expecting value: line 8 column 13 (char 134)
+2025-07-15 02:06:41,654 - __main__ - INFO - Создание бота...
+2025-07-15 02:06:42,036 - __main__ - INFO - Бот запущен: @muslim_developBot
+2025-07-15 02:06:42,036 - __main__ - INFO - Запуск polling...
+2025-07-15 02:06:42,036 - aiogram.dispatcher - INFO - Start polling
+2025-07-15 02:06:42,138 - aiogram.dispatcher - INFO - Run polling for bot @muslim_developBot id=8143610615 - 'muslim_develop'
+2025-07-15 02:07:07,757 - aiogram.event - INFO - Update id=862540426 is not handled. Duration 0 ms by bot id=8143610615
+2025-07-15 02:07:07,757 - aiogram.event - ERROR - Cause exception while process update id=862540426 by bot id=8143610615
+TypeError: is_new_day() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\.venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\yntym\PycharmProjects\DevelopMuslim\handlers.py", line 47, in cmd_start
+    if is_new_day(user_id, db):
+TypeError: is_new_day() takes 1 positional argument but 2 were given
+2025-07-15 02:30:50,045 - aiogram.dispatcher - INFO - Polling stopped for bot @muslim_developBot id=8143610615 - 'muslim_develop'
+2025-07-15 02:30:50,045 - aiogram.dispatcher - INFO - Polling stopped
